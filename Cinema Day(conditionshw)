@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution
+{
+   public static void main(String[] args) 
+    {
+        Scanner s=new Scanner(System.in);
+        int d=s.nextInt();
+        int m=s.nextInt();
+        int y=s.nextInt();
+        int s1=s.nextInt();
+        int r1=d+m+y;
+       if(r1%3==0 &&r1%4==0)
+       {
+          if(s1>50&&s1<100) 
+              System.out.println("Cinema Day");
+       }
+       else
+           System.out.println("Not a Cinema Day"); 
+    }
+}
