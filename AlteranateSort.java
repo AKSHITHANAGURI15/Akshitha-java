@@ -27,7 +27,7 @@ for(int i=0;i<n/2;i++)
 {
   System.out.print(a[n-i-1]+" "+a[i]+" ");
 }
-if(n%1==1)
+if(n%2==1)
 System.out.print(a[i]);
 }
 }
